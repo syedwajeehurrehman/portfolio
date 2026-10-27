@@ -11,8 +11,8 @@
   --text: #f3f0e8;
   --muted: #a5a197;
   --dim: #8d8a80;
-  --accent: #c8f03c;
-  --accent-soft: rgba(200, 240, 60, 0.1);
+  --accent: #00e9a7;
+  --accent-soft: rgba(0, 233, 167, 0.1);
   --accent-ink: #0d0d0b;
 
   --font-display: 'Inter Tight Variable', 'Inter Tight', system-ui, sans-serif;
@@ -237,7 +237,7 @@ body::after {
 }
 
 .btn--primary:hover {
-  background: #d6f86a;
+  background: #5ff2c8;
 }
 
 .btn--ghost {
@@ -305,29 +305,26 @@ body::after {
 .badge--accent {
   background: var(--accent-soft);
   color: var(--accent);
-  border: 1px solid rgba(200, 240, 60, 0.25);
+  border: 1px solid rgba(0, 233, 167, 0.25);
 }
 
 .monogram {
   display: inline-grid;
   place-items: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  background: var(--accent);
-  color: var(--accent-ink);
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.86rem;
-  letter-spacing: -0.02em;
+  width: 40px;
+  height: 30px;
   flex: none;
 }
 
+.monogram img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .monogram--lg {
-  width: 48px;
-  height: 48px;
-  border-radius: 13px;
-  font-size: 1.1rem;
+  width: 56px;
+  height: 40px;
 }
 
 .chips {
@@ -585,7 +582,7 @@ body::after {
   inset: 0 0 auto auto;
   width: min(900px, 90vw);
   height: 700px;
-  background: radial-gradient(closest-side, rgba(200, 240, 60, 0.07), transparent 70%);
+  background: radial-gradient(closest-side, rgba(0, 233, 167, 0.07), transparent 70%);
   transform: translate(25%, -30%);
   pointer-events: none;
 }
@@ -759,7 +756,7 @@ body::after {
 .hv__glow {
   position: absolute;
   inset: 12% 8%;
-  background: radial-gradient(closest-side, rgba(200, 240, 60, 0.12), transparent);
+  background: radial-gradient(closest-side, rgba(0, 233, 167, 0.12), transparent);
   filter: blur(20px);
   z-index: -1;
 }
@@ -958,7 +955,7 @@ body::after {
 }
 
 .hv__tag.is-on {
-  background: rgba(200, 240, 60, 0.6);
+  background: rgba(0, 233, 167, 0.6);
 }
 
 .hv__select {
@@ -1385,13 +1382,13 @@ body::after {
 /* Feature card for AI-assisted development */
 .svc--ai-dev {
   background:
-    radial-gradient(120% 140% at 100% 0%, rgba(200, 240, 60, 0.09), transparent 55%),
+    radial-gradient(120% 140% at 100% 0%, rgba(0, 233, 167, 0.09), transparent 55%),
     var(--bg-raise);
-  border-color: rgba(200, 240, 60, 0.18);
+  border-color: rgba(0, 233, 167, 0.18);
 }
 
 .svc--ai-dev:hover {
-  border-color: rgba(200, 240, 60, 0.38);
+  border-color: rgba(0, 233, 167, 0.38);
 }
 
 .svc--ai-dev .svc__index {
@@ -1624,7 +1621,7 @@ body::after {
   gap: 0.3rem;
   padding: clamp(1.25rem, 1rem + 1vw, 2rem);
   background:
-    radial-gradient(90% 90% at 100% 0%, rgba(200, 240, 60, 0.08), transparent 60%),
+    radial-gradient(90% 90% at 100% 0%, rgba(0, 233, 167, 0.08), transparent 60%),
     repeating-linear-gradient(90deg, transparent 0 47px, rgba(243, 240, 232, 0.035) 47px 48px),
     var(--surface);
 }
@@ -2262,7 +2259,7 @@ body::after {
 .field textarea:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(200, 240, 60, 0.15);
+  box-shadow: 0 0 0 3px rgba(0, 233, 167, 0.15);
 }
 
 .field input:user-invalid,
@@ -2344,7 +2341,7 @@ body::after {
   border-radius: var(--radius);
   border: 1px solid var(--line-strong);
   background:
-    radial-gradient(90% 70% at 100% 0%, rgba(200, 240, 60, 0.12), transparent 60%),
+    radial-gradient(90% 70% at 100% 0%, rgba(0, 233, 167, 0.12), transparent 60%),
     linear-gradient(160deg, #1d1d1a, #121210);
   overflow: hidden;
 }

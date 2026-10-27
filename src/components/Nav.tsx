@@ -39,7 +39,7 @@ export function Nav({ active }: { active: string }) {
       <div className="nav__inner container">
         <a href="#top" className="nav__brand" onClick={() => setOpen(false)}>
           <span className="monogram" aria-hidden="true">
-            {site.initials}
+            <img src="/brand/logo-mark.svg" alt="" />
           </span>
           <span className="nav__name">{site.shortName}</span>
           <span className="sr-only">, back to top</span>

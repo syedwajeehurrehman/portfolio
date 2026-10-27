@@ -9,7 +9,7 @@ export function Footer() {
         <div className="footer__id">
           <a href="#top" className="footer__name">
             <span className="monogram" aria-hidden="true">
-              {site.initials}
+              <img src="/brand/logo-mark.svg" alt="" />
             </span>
             {site.name}
           </a>

@@ -29,7 +29,7 @@ export function BusinessCard() {
       <div className="bcard__face">
         <div className="bcard__top">
           <span className="monogram monogram--lg" aria-hidden="true">
-            {site.initials}
+            <img src="/brand/logo-mark.svg" alt="" />
           </span>
           <span className="bcard__loc">{site.location}</span>
         </div>
