@@ -3,6 +3,7 @@ backend:
   name: github
   repo: syedwajeehurrehman/portfolio
   branch: main
+  site_domain: cdec33d4-69b5-4d46-b58c-7a9391bbebb7
   commit_messages:
     update: 'Update {{slug}} via admin'
 
