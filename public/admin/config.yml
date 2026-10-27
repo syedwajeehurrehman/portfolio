@@ -1,0 +1,126 @@
+# Admin panel settings. Only people with write access to the GitHub repo can sign in and save.
+backend:
+  name: github
+  repo: syedwajeehurrehman/portfolio
+  branch: main
+  commit_messages:
+    update: 'Update {{slug}} via admin'
+
+# Lets you use the admin on your own computer: run `npx decap-server` next to `npm run dev`,
+# then open http://localhost:5173/admin/
+local_backend: true
+
+site_url: /
+display_url: /
+logo_url: /apple-touch-icon.png
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: site
+    label: Website content
+    editor: { preview: false }
+    files:
+      - name: profile
+        label: Profile & contact details
+        file: content/profile.json
+        format: json
+        fields:
+          - { name: name, label: Full name, widget: string }
+          - { name: shortName, label: Short name (navigation), widget: string }
+          - { name: initials, label: Initials (logo badge), widget: string, pattern: ['^.{1,3}$', 'Use 1 to 3 characters'] }
+          - { name: role, label: Role / title, widget: string }
+          - { name: available, label: Show "available" indicator, widget: boolean }
+          - { name: availabilityText, label: Availability text, widget: string }
+          - { name: headline, label: Headline (first part), widget: string, hint: 'Use | to mark a line break on large screens.' }
+          - { name: headlineAccent, label: Headline (highlighted end), widget: string }
+          - { name: intro, label: Intro paragraph, widget: text }
+          - { name: disciplines, label: Disciplines strip, widget: list, field: { name: item, label: Discipline, widget: string } }
+          - { name: location, label: Location, widget: string }
+          - { name: timezone, label: Time zone label, widget: string }
+          - { name: email, label: Email, widget: string, pattern: ['^[^@\s]+@[^@\s]+\.[^@\s]+$', 'Enter a valid email'] }
+          - { name: phone, label: Phone (local format), widget: string, hint: 'e.g. 03415359701. Used for the WhatsApp link.' }
+          - { name: phoneCountryCode, label: Country code (digits only), widget: string, pattern: ['^\d{1,4}$', 'Digits only, e.g. 92'] }
+          - { name: phoneDisplay, label: Phone as displayed, widget: string }
+          - { name: whatsappGreeting, label: WhatsApp starter message, widget: string }
+          - { name: behance, label: Behance URL, widget: string }
+          - { name: behanceHandle, label: Behance link text, widget: string }
+          - { name: summary, label: Short description (footer & SEO), widget: text }
+
+      - name: services
+        label: Services
+        file: content/services.json
+        format: json
+        fields:
+          - name: items
+            label: Services
+            widget: list
+            summary: '{{fields.title}}'
+            hint: 'The first six fill the grid. Order here is the order on the page.'
+            fields:
+              - { name: id, label: ID (lowercase, no spaces), widget: string, pattern: ['^[a-z0-9-]+$', 'Lowercase letters, numbers and dashes'] }
+              - { name: title, label: Title, widget: string }
+              - { name: description, label: Description, widget: text }
+              - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+              - { name: size, label: Card size, widget: select, options: [wide, tall, regular], default: regular }
+              - { name: note, label: Note (optional), widget: text, required: false }
+
+      - name: projects
+        label: Portfolio projects
+        file: content/projects.json
+        format: json
+        fields:
+          - name: items
+            label: Projects
+            widget: list
+            summary: '{{fields.title}} · {{fields.client}}'
+            hint: 'Projects marked Featured appear on the page, in this order.'
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: client, label: Subtitle, widget: string }
+              - { name: category, label: Category, widget: select, options: ['UI/UX', 'Web Design', 'Branding', 'Print & Editorial', 'Packaging'] }
+              - { name: description, label: Short description, widget: string }
+              - { name: url, label: Behance project URL, widget: string }
+              - { name: image, label: Cover image, widget: image, hint: 'Upload an image, or paste a Behance cover image address.' }
+              - { name: team, label: Team project, widget: boolean, default: false, required: false }
+              - { name: featured, label: Featured, widget: boolean, default: true }
+
+      - name: about
+        label: About
+        file: content/about.json
+        format: json
+        fields:
+          - { name: portrait, label: Portrait photo, widget: image }
+          - { name: paragraphs, label: Paragraphs, widget: list, field: { name: item, label: Paragraph, widget: text } }
+          - name: experience
+            label: Experience & study
+            widget: list
+            summary: '{{fields.role}} · {{fields.place}}'
+            fields:
+              - { name: role, label: Role, widget: string }
+              - { name: place, label: Company / school, widget: string }
+              - { name: where, label: Location, widget: string, required: false }
+              - { name: years, label: Years, widget: string, required: false, hint: 'e.g. 2023 – 2026' }
+          - { name: tools, label: Tools, widget: list, field: { name: item, label: Tool, widget: string } }
+
+      - name: sections
+        label: Process, strengths & form
+        file: content/sections.json
+        format: json
+        fields:
+          - name: approach
+            label: Approach steps
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text, widget: text }
+          - name: reasons
+            label: Why work with me
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text, widget: text }
+          - { name: projectTypes, label: Enquiry form project types, widget: list, field: { name: item, label: Type, widget: string } }

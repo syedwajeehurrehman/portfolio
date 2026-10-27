@@ -1,0 +1,87 @@
+{
+  "items": [
+    {
+      "id": "product",
+      "title": "UI/UX & Product Design",
+      "description": "Clear, usable product experiences, from the first user flow to a polished, responsive interface ready for development.",
+      "items": [
+        "User flows",
+        "Wireframes & prototypes",
+        "Interface design",
+        "Responsive experiences",
+        "Usability-focused design",
+        "Product design support"
+      ],
+      "size": "wide"
+    },
+    {
+      "id": "web-app",
+      "title": "Website & Application Design",
+      "description": "Interfaces for websites, mobile apps and complex business software, including dashboards and ERP systems.",
+      "items": [
+        "Website interfaces",
+        "Mobile app UI",
+        "Web app interfaces",
+        "SaaS products",
+        "Dashboards",
+        "ERP systems"
+      ],
+      "size": "tall"
+    },
+    {
+      "id": "brand",
+      "title": "Branding & Visual Identity",
+      "description": "Distinctive identities that stay consistent everywhere your brand shows up.",
+      "items": [
+        "Logo design",
+        "Brand identity systems",
+        "Typography & visual direction",
+        "Brand consistency",
+        "Marketing & social creatives"
+      ],
+      "size": "regular"
+    },
+    {
+      "id": "graphic",
+      "title": "Graphic Design & Business Materials",
+      "description": "Well-structured layouts for the materials a business uses every day.",
+      "items": [
+        "Social media graphics",
+        "Marketing materials",
+        "Reports & annual reports",
+        "Mockups",
+        "Professional documents",
+        "Layout design"
+      ],
+      "size": "regular"
+    },
+    {
+      "id": "ai-dev",
+      "title": "AI-Assisted Application Development",
+      "description": "I use AI-assisted coding tools such as Claude to turn concepts into working prototypes and suitable web applications, so you can test an idea with something real, then iterate on it based on feedback.",
+      "items": [
+        "Concepts to working prototypes",
+        "Application interfaces & workflows",
+        "Suitable web applications",
+        "Idea validation",
+        "Iteration on feedback"
+      ],
+      "size": "wide",
+      "note": "AI speeds up the build, but it does not replace testing, technical judgment or security review. For production systems handling sensitive data or scale, I will be upfront about when additional engineering support is needed."
+    },
+    {
+      "id": "support",
+      "title": "Product Improvement & Design Support",
+      "description": "A second pair of designer eyes on a product you already have, or ongoing freelance support.",
+      "items": [
+        "Interface refinement",
+        "UX improvements",
+        "Visual consistency",
+        "Dashboard usability",
+        "Interface reviews",
+        "Ongoing support"
+      ],
+      "size": "regular"
+    }
+  ]
+}

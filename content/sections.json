@@ -1,0 +1,56 @@
+{
+  "approach": [
+    {
+      "title": "Discover",
+      "text": "Understand the business, audience, goals and requirements."
+    },
+    {
+      "title": "Define",
+      "text": "Establish the direction, scope, structure and priorities."
+    },
+    {
+      "title": "Design & Build",
+      "text": "Create the visual experience and, where appropriate, develop a functional application using suitable AI-assisted workflows."
+    },
+    {
+      "title": "Refine & Deliver",
+      "text": "Test, improve and prepare the agreed deliverables."
+    }
+  ],
+  "reasons": [
+    {
+      "title": "Professional product design experience",
+      "text": "Almost four years designing in-house at Max ERP / Meet Max in Dubai, from junior to product designer."
+    },
+    {
+      "title": "Design and branding in one person",
+      "text": "Interface, identity and marketing materials that feel like the same brand."
+    },
+    {
+      "title": "Usability and visual clarity first",
+      "text": "Layouts that make the next step obvious and the important things easy to find."
+    },
+    {
+      "title": "Dashboards and ERP interfaces",
+      "text": "Experience designing ERP and dashboard interfaces around dense business data."
+    },
+    {
+      "title": "Modern AI tools, used carefully",
+      "text": "Using AI-assisted development to move from idea to working prototype faster."
+    },
+    {
+      "title": "Collaborative, adaptable support",
+      "text": "Works as a solo designer or alongside your team, at the pace the project needs."
+    }
+  ],
+  "projectTypes": [
+    "UI/UX or product design",
+    "Website or app design",
+    "Dashboard or ERP interface",
+    "Branding & visual identity",
+    "Graphic design or business materials",
+    "AI-assisted app / prototype",
+    "Design review or ongoing support",
+    "Something else"
+  ]
+}

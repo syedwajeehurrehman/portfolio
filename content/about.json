@@ -1,0 +1,51 @@
+{
+  "portrait": "/images/syed-wajeeh.webp",
+  "paragraphs": [
+    "I'm Syed Wajeeh, a multidisciplinary designer with professional experience across product design, UI/UX, branding and digital products.",
+    "My approach combines visual clarity, user-centred thinking and an understanding of how digital products actually work.",
+    "Alongside my design practice, I'm exploring AI-assisted application development, using tools such as Claude to turn ideas into functional products and prototypes.",
+    "I enjoy working with people who want to build useful products, improve existing experiences, or bring a new idea to life."
+  ],
+  "experience": [
+    {
+      "role": "Freelance Designer",
+      "place": "Self-employed",
+      "where": "Karachi",
+      "years": "2026 – Now"
+    },
+    {
+      "role": "Product Designer",
+      "place": "Max ERP / Meet Max",
+      "where": "Dubai, UAE",
+      "years": "2023 – 2026"
+    },
+    {
+      "role": "Junior Product Designer",
+      "place": "Max ERP / Meet Max",
+      "where": "Dubai, UAE",
+      "years": "2022 – 2023"
+    },
+    {
+      "role": "UI/UX & Graphic Designer",
+      "place": "Plan Z Creatives",
+      "where": "Karachi",
+      "years": "2020 – 2022"
+    },
+    {
+      "role": "BSCS, in progress",
+      "place": "Iqra University",
+      "where": "Karachi",
+      "years": ""
+    }
+  ],
+  "tools": [
+    "Figma",
+    "Photoshop",
+    "Illustrator",
+    "Adobe XD",
+    "InDesign",
+    "Framer",
+    "Canva",
+    "Claude"
+  ]
+}

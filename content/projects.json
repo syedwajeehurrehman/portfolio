@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "title": "Max Invoice",
+      "client": "Invoice Management Platform",
+      "category": "UI/UX",
+      "description": "Product interface design for an invoice management platform.",
+      "url": "https://www.behance.net/gallery/250761607/Max-Invoice-Invoice-Management-Platform",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/aff9c4250761607.Y3JvcCwxMzMyLDEwNDIsMTIyLDc5.png",
+      "team": true,
+      "featured": true
+    },
+    {
+      "title": "GoChauff",
+      "client": "Premium Chauffeur SaaS",
+      "category": "Web Design",
+      "description": "Website redesign for a premium chauffeur SaaS product.",
+      "url": "https://www.behance.net/gallery/252665611/GoChauff-Premium-Chauffeur-SaaS-Website-Redesign",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/d0b8e5252665611.Y3JvcCwxMDYwLDgyOSwyMTUsMjEy.png",
+      "featured": true
+    },
+    {
+      "title": "Evenza",
+      "client": "Event Management",
+      "category": "Web Design",
+      "description": "Landing page redesign for an event management product.",
+      "url": "https://www.behance.net/gallery/251386069/Evenza-Event-Management-Landing-Page-Redesign",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/b73019251386069.Y3JvcCwxNTM2LDEyMDEsMCwz.png",
+      "featured": true
+    },
+    {
+      "title": "Catalyst",
+      "client": "B2B SaaS",
+      "category": "UI/UX",
+      "description": "Branding and UX case study for a B2B SaaS product.",
+      "url": "https://www.behance.net/gallery/143119359/SAAS-Branding-UX-Case-Study-B2B-Catalyst",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/4907c5143119359.Y3JvcCwyMzAxLDE4MDAsNTEsMA.png",
+      "team": true,
+      "featured": true
+    },
+    {
+      "title": "Gaustav",
+      "client": "Restaurant Mobile App",
+      "category": "UI/UX",
+      "description": "UI/UX case study for a restaurant mobile app.",
+      "url": "https://www.behance.net/gallery/171960051/UiUx-Case-study-Gaustav-Restaurant-mobile-app",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/28e339171960051.Y3JvcCw4NTIsNjY2LDAsMTcw.jpg",
+      "featured": true
+    },
+    {
+      "title": "AGP Pharma",
+      "client": "Annual Report 2020",
+      "category": "Print & Editorial",
+      "description": "Annual report design for AGP Pharma, 2020.",
+      "url": "https://www.behance.net/gallery/118359685/AGP-Pharma-Annual-Report-2020",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/7bc8ee118359685.Y3JvcCwyNTU2LDIwMDAsMjM0LDA.jpg",
+      "team": true,
+      "featured": true
+    },
+    {
+      "title": "Hear Easy",
+      "client": "Brand Identity",
+      "category": "Branding",
+      "description": "Brand identity design for Hear Easy.",
+      "url": "https://www.behance.net/gallery/171572483/Brand-Identity-Hear-Easy",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/82693f171572483.Y3JvcCwxMDEwLDc5MCw4Nyww.png",
+      "featured": true
+    },
+    {
+      "title": "Blokbot",
+      "client": "Brand Identity",
+      "category": "Branding",
+      "description": "Brand identity design for Blokbot.",
+      "url": "https://www.behance.net/gallery/171574733/Brand-Identity-Blokbot",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/eac441171574733.Y3JvcCwxNDE4LDExMDksMCwxNTQ.jpg",
+      "featured": true
+    },
+    {
+      "title": "Plevin",
+      "client": "Brand Identity",
+      "category": "Branding",
+      "description": "Brand identity design for Plevin.",
+      "url": "https://www.behance.net/gallery/171905615/Brand-Identity-Plevin",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/556428171905615.Y3JvcCwxNDE4LDExMDksMCwxNTQ.jpg",
+      "featured": false
+    },
+    {
+      "title": "PCP Claims",
+      "client": "Logo Design",
+      "category": "Branding",
+      "description": "Logo design for PCP Claims.",
+      "url": "https://www.behance.net/gallery/171905949/Logo-Design-PCP-Claims",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/92cb1b171905949.Y3JvcCwxMjE1LDk1MSwyNzYsMA.jpg",
+      "featured": false
+    },
+    {
+      "title": "Franbella Mail",
+      "client": "Logo Design",
+      "category": "Branding",
+      "description": "Logo design for Franbella Mail.",
+      "url": "https://www.behance.net/gallery/172030105/Logo-Design-Franbella-Mail",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/f1f87e172030105.Y3JvcCwxNjk5LDEzMjksMzcsMA.jpg",
+      "team": true,
+      "featured": false
+    },
+    {
+      "title": "Box Designs",
+      "client": "Packaging",
+      "category": "Packaging",
+      "description": "A collection of packaging box designs.",
+      "url": "https://www.behance.net/gallery/115015265/Box-Designs",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/b3cac5115015265.Y3JvcCwyNTY3LDIwMDgsMjY2LDA.jpg",
+      "team": true,
+      "featured": false
+    }
+  ]
+}
