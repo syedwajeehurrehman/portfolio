@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 
 .env
+
+# Local Netlify folder
+.netlify
+
+# Local Claude/Netlify CLI skills
+.claude
