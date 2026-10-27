@@ -46,6 +46,7 @@ collections:
           - { name: whatsappGreeting, label: WhatsApp starter message, widget: string }
           - { name: behance, label: Behance URL, widget: string }
           - { name: behanceHandle, label: Behance link text, widget: string }
+          - { name: cv, label: "CV (PDF)", widget: file, required: false, hint: "Upload a new PDF to replace the CV visitors download." }
           - { name: summary, label: Short description (footer & SEO), widget: text }
 
       - name: services

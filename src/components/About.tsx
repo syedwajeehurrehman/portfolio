@@ -67,6 +67,12 @@ export function About() {
                 ))}
               </ul>
             </div>
+            {site.cv && (
+              <a className="btn btn--ghost btn--sm about__cv" href={site.cv} download="Syed-Wajeeh-Ur-Rehman-CV.pdf">
+                <Icon name="download" size={16} />
+                Download my CV
+              </a>
+            )}
             <p className="about__loc">
               <Icon name="pin" size={16} />
               Based in {site.location}, working with clients remotely.

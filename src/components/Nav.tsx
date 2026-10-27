@@ -57,6 +57,13 @@ export function Nav({ active }: { active: string }) {
           </ul>
         </nav>
 
+        {site.cv && (
+          <a className="btn btn--ghost btn--sm nav__cv" href={site.cv} download="Syed-Wajeeh-Ur-Rehman-CV.pdf">
+            <Icon name="download" size={16} />
+            Download CV
+          </a>
+        )}
+
         <a className="btn btn--primary btn--sm nav__cta" href="#contact">
           Let&rsquo;s talk
           <Icon name="arrow-right" size={16} />
@@ -92,6 +99,11 @@ export function Nav({ active }: { active: string }) {
             <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer">
               WhatsApp {site.phoneDisplay}
             </a>
+            {site.cv && (
+              <a href={site.cv} download="Syed-Wajeeh-Ur-Rehman-CV.pdf">
+                Download CV
+              </a>
+            )}
           </div>
         </nav>
       </div>

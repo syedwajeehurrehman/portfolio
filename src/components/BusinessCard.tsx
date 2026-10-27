@@ -75,6 +75,12 @@ export function BusinessCard() {
           <Icon name={copied ? 'check' : 'copy'} size={16} />
           {copied ? 'Email copied' : 'Copy email'}
         </button>
+        {site.cv && (
+          <a className="btn btn--ghost btn--sm" href={site.cv} download="Syed-Wajeeh-Ur-Rehman-CV.pdf">
+            <Icon name="download" size={16} />
+            Download CV
+          </a>
+        )}
       </div>
     </div>
   )

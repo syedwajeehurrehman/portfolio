@@ -29,6 +29,13 @@ export function Footer() {
               WhatsApp
             </a>
           </li>
+          {site.cv && (
+            <li>
+              <a href={site.cv} download="Syed-Wajeeh-Ur-Rehman-CV.pdf">
+                CV
+              </a>
+            </li>
+          )}
         </ul>
         <p className="footer__copy">
           &copy; {year} {site.name}. All rights reserved.
