@@ -39,15 +39,6 @@
       "featured": true
     },
     {
-      "title": "Gaustav",
-      "client": "Restaurant Mobile App",
-      "category": "UI/UX",
-      "description": "UI/UX case study for a restaurant mobile app.",
-      "url": "https://www.behance.net/gallery/171960051/UiUx-Case-study-Gaustav-Restaurant-mobile-app",
-      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/28e339171960051.Y3JvcCw4NTIsNjY2LDAsMTcw.jpg",
-      "featured": true
-    },
-    {
       "title": "AGP Pharma",
       "client": "Annual Report 2020",
       "category": "Print & Editorial",
@@ -76,24 +67,6 @@
       "featured": true
     },
     {
-      "title": "Plevin",
-      "client": "Brand Identity",
-      "category": "Branding",
-      "description": "Brand identity design for Plevin.",
-      "url": "https://www.behance.net/gallery/171905615/Brand-Identity-Plevin",
-      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/556428171905615.Y3JvcCwxNDE4LDExMDksMCwxNTQ.jpg",
-      "featured": false
-    },
-    {
-      "title": "PCP Claims",
-      "client": "Logo Design",
-      "category": "Branding",
-      "description": "Logo design for PCP Claims.",
-      "url": "https://www.behance.net/gallery/171905949/Logo-Design-PCP-Claims",
-      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/92cb1b171905949.Y3JvcCwxMjE1LDk1MSwyNzYsMA.jpg",
-      "featured": false
-    },
-    {
       "title": "Franbella Mail",
       "client": "Logo Design",
       "category": "Branding",
@@ -112,6 +85,33 @@
       "image": "https://mir-s3-cdn-cf.behance.net/projects/404/b3cac5115015265.Y3JvcCwyNTY3LDIwMDgsMjY2LDA.jpg",
       "team": true,
       "featured": false
+    },
+    {
+      "title": "Plevin",
+      "client": "Brand Identity",
+      "category": "Branding",
+      "description": "Brand identity design for Plevin.",
+      "url": "https://www.behance.net/gallery/171905615/Brand-Identity-Plevin",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/556428171905615.Y3JvcCwxNDE4LDExMDksMCwxNTQ.jpg",
+      "featured": false
+    },
+    {
+      "title": "PCP Claims",
+      "client": "Logo Design",
+      "category": "Branding",
+      "description": "Logo design for PCP Claims.",
+      "url": "https://www.behance.net/gallery/171905949/Logo-Design-PCP-Claims",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/92cb1b171905949.Y3JvcCwxMjE1LDk1MSwyNzYsMA.jpg",
+      "featured": false
+    },
+    {
+      "title": "Gaustav",
+      "client": "Restaurant Mobile App",
+      "category": "UI/UX",
+      "description": "UI/UX case study for a restaurant mobile app.",
+      "url": "https://www.behance.net/gallery/171960051/UiUx-Case-study-Gaustav-Restaurant-mobile-app",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/28e339171960051.Y3JvcCw4NTIsNjY2LDAsMTcw.jpg",
+      "featured": true
     }
   ]
 }
