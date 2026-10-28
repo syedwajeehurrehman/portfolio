@@ -11,6 +11,16 @@
       "featured": true
     },
     {
+      "team": false,
+      "featured": true,
+      "title": "LUNELLE",
+      "image": "/uploads/01-hero-laptop-phone.png",
+      "url": "https://www.behance.net/gallery/257726681/LUNELLE-E-Commerce-Website-Design",
+      "category": "UI/UX",
+      "client": "E-Commerce Website Design",
+      "description": "LUNELLE is a digital experience concept for a handmade floral brand"
+    },
+    {
       "title": "GoChauff",
       "client": "Premium Chauffeur SaaS",
       "category": "Web Design",
@@ -27,16 +37,6 @@
       "url": "https://www.behance.net/gallery/251386069/Evenza-Event-Management-Landing-Page-Redesign",
       "image": "https://mir-s3-cdn-cf.behance.net/projects/404/b73019251386069.Y3JvcCwxNTM2LDEyMDEsMCwz.png",
       "featured": true
-    },
-    {
-      "team": false,
-      "featured": true,
-      "title": "LUNELLE",
-      "image": "/uploads/01-hero-laptop-phone.png",
-      "url": "https://www.behance.net/gallery/257726681/LUNELLE-E-Commerce-Website-Design",
-      "category": "UI/UX",
-      "client": "E-Commerce Website Design",
-      "description": "LUNELLE is a digital experience concept for a handmade floral brand, designed to bring the beauty of handcrafted arrangements into a refined, elegant, and intuitive online shopping experience.  Inspired by warm neutrals, delicate typography, and rich floral imagery, the project explores how thoughtful UI/UX design can communicate craftsmanship while making product discovery and purchasing feel effortless.  The case study covers the brand's visual direction, design system, user journey, responsive website layouts, product discovery experience, and mobile interface.  The goal was to create an experience that feels as personal and carefully crafted as the products themselves — balancing visual storytelling with usability, clarity, and a seamless shopping journey.  **Project focus:** Brand-led UI/UX Design · E-Commerce · Responsive Web Design · Design Systems · User Journey Mapping"
     },
     {
       "title": "Catalyst",
